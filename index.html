@@ -415,7 +415,7 @@
         </div>
     </div>
 
-<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1OUTt-Rzq22BWwLRjgQL_3DDspxlVc-KkKDZTJ2yWC1o/viewform?" target="hidden_iframe" onsubmit="submitted=true;">
+<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1OUTt-Rzq22BWwLRjgQL_3DDspxlVc-KkKDZTJ2yWC1o/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
   Name:<br>
   <input type="text" name="entry.2005620554" id="entry.2005620554"><br>
   Email:<br>
@@ -426,6 +426,8 @@
   <input type="text" name="entry.839337160" id="entry.839337160">
   <input type="submit" value="Submit">
 </form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 
 <script src="js/jquery-2.2.2.min.js"></script>
 <script type="text/javascript">var submitted=false;</script>
