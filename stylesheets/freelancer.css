@@ -205,7 +205,7 @@ section.success a.active {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0 10px;
     text-align: center;
 }
 
@@ -213,20 +213,18 @@ section.success a.active {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
-    text-align: center;
+    max-width: 263px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
-    width: 75.5%;
+    width: 100%;
     height: 100%;
     opacity: 0;
     background: rgba(24,188,156,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    text-align: center;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
