@@ -5995,6 +5995,8 @@ button.close {
 .modal-body {
   position: relative;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .modal-footer {
   padding: 20px;
